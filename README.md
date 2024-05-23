@@ -5,7 +5,7 @@ I'm learning data science bootcamp. I created 6 project during the camp
 - Google sheet
 - Excel
 - R programming
-- python
+- Python
 - Data vituslization
   
 
