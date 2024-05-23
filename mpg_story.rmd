@@ -1,5 +1,17 @@
 ### Mpg Dataset
 
 '''{r}
-View(mpg)
+library(tidyverse)
+library(gridExtra)
+library(ggplot2)
+library(ggthemes)
+library(dplyr)
+tt3 <- ttheme_minimal(
+core=list(bg_params = list(fill = blues9[1:1], col="grey80"),
+
+fg_params=list(fontface=1)),
+colhead=list(fg_params=list(col="navyblue")),
+rowhead=list(fg_params=list(col="#64add1")),
+base_size = 8)
+grid.table(head(mpg,10), theme=tt3)
 '''
