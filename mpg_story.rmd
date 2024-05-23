@@ -1,1 +1,5 @@
 ### Mpg Dataset
+
+'''{r}
+View(mpg)
+'''
